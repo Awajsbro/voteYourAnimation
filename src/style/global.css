@@ -1,0 +1,4 @@
+.tabIdeaWrapper {
+    display: flex;
+    flex-direction: column;
+}
