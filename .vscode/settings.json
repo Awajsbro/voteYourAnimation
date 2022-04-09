@@ -1,0 +1,14 @@
+{
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true  },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue"  ],
+    "git.ignoreLimitWarning": true,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"  },
+  }
