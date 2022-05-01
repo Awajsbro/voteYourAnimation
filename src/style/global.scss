@@ -38,8 +38,15 @@
 }
 
 .legendWrapper {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.ideaWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
 }
 
 .modalBackground {
@@ -76,7 +83,8 @@
 }
 
 .calendarArrow {
-    height: auto
+    height: 20px;
+    padding: 8px;
 }
 
 .cellWrapper {

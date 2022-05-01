@@ -1,0 +1,22 @@
+
+[   // liste d'idee
+    {
+        id : uniqueId,
+        label : String,
+        price : Number,
+        creationDate : Date | String,
+        comment : String[],
+        voted :  boolean
+        voteCount : Number
+    }
+]
+
+[   // liste de jour disponible pour le clandrier
+    disponibilityDate
+]
+
+identification
+
+
+couleur coquille d'oeuf 
+gris antraicite 

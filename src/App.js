@@ -4,6 +4,7 @@ import Home from './pages/home'
 import NavBar from './component/navBar';
 import NotFound from './pages/notFound';
 import Calendar from './pages/calendar';
+import Profile from './pages/profile';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<NavBar/>}>
           <Route index element={<Home />} />
           <Route path="calendar" element={<Calendar />} />
+          <Route path="Profile" element={<Profile />} />
           <Route path='*' element={<NotFound />}/>
         </Route>
       </Routes>

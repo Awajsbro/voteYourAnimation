@@ -24,6 +24,15 @@ const NavBar = () => {
                     color="red"
                 />
             </NavLink>
+            <NavLink
+                className='navBar-element'
+                to='/profile'
+            >
+                <Tab
+                    name='Profile'
+                    color="blue"
+                />
+            </NavLink>
         </nav>
         <div className="content">
             <Outlet />
